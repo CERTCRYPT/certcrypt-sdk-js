@@ -5,6 +5,10 @@ This package follows [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 Entries are one line per change: `type:scope: what changed`, where `type` is
 `feature`, `bugfix`, `breaking`, `deprecation`, `security` or `docs`.
 
+## 1.0.1
+
+* bugfix:Tests: `npm test` lists the compiled tests and passes them to the Node.js test runner by name (`scripts/run-tests.mjs`), so the suite runs on Node.js 20, the floor declared in `engines`, as on later versions
+
 ## 1.0.0
 
 * feature:Settlement: `VerificationPackage` has the closed member set of verification-package/1 — `base_certificate` and `verification_context` always present — which is what an offline verifier in package mode accepts

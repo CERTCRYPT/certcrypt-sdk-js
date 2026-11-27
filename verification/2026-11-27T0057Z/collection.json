@@ -1,0 +1,29 @@
+{
+  "repository": "certcrypt-sdk-js",
+  "certification": "2026-11-27T0057Z",
+  "issued_under": "rules/2026-01",
+  "collection_profile": "subject.collection/1",
+  "leaf_profile": "subject.binary/1",
+  "files": [
+    {
+      "path": "CHANGELOG.md",
+      "sha3_256": "a492e914eec18539515782b76b97f557f6c25bee79ee2965e054afbd84b9d350"
+    },
+    {
+      "path": "package-lock.json",
+      "sha3_256": "8e72befbfe132db25f03b590e6c18f84da5304bfcac67b7ce4750fd161d8faa3"
+    },
+    {
+      "path": "package.json",
+      "sha3_256": "637d3fc10368775b9bf8ceb67707b4e34ceb381d4418744d3433b0b85f98e596"
+    },
+    {
+      "path": "scripts/run-tests.mjs",
+      "sha3_256": "6dd36c943efcd38b1318216c8a2be0e1ee3894b8295951e37fc5a6db38d20f66"
+    }
+  ],
+  "declared_cardinality": 4,
+  "collection_root": "b54c56c55082e36264ec70ebbf8f8b9842e96ebece82ca60e3ed84233787457f",
+  "subtree_root": "4cd0f4ee913c910a797015a98a4dbf0c4eec738393142cba4678f30b70002ffd",
+  "procedure": "verification/README.md"
+}

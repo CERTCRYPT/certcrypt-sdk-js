@@ -1,6 +1,6 @@
 {
   "name": "@certcrypt/sdk",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Official issuer-side SDK for CERTCRYPT: certify material with a client-side composite post-quantum signature (ECDSA P-256 + ML-DSA-65), and produce the artifacts that let a third party independently evaluate the result offline under public rules, without either your systems or CERTCRYPT remaining online.",
   "keywords": [
     "auditability",
@@ -42,7 +42,7 @@
   "scripts": {
     "build": "tsc",
     "prepublishOnly": "npm run build && npm test",
-    "test": "node --test \"dist/**/*.test.js\"",
+    "test": "node scripts/run-tests.mjs",
     "lint": "tsc --noEmit"
   },
   "dependencies": {

@@ -1,0 +1,94 @@
+# CI for certcrypt-sdk-js — the issuer-side SDK.
+#
+# THE SIBLING CHECKOUTS ARE REQUIRED, and no flag is needed to make them so. The
+# byte-parity tests and the round-trip through the verifier read from sibling
+# checkouts, and a missing one FAILS by default — a suite reporting `fail 0`
+# having never checked parity would be attesting to something it did not do. This
+# job therefore checks the siblings out; it cannot pass by skipping the part that
+# matters. The conformance VERSION is checked too, so this job also proves the
+# SDK was run against the contract version it claims.
+
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  test:
+    name: Node ${{ matrix.node }}
+    runs-on: ubuntu-latest
+
+    strategy:
+      fail-fast: false
+      matrix:
+        # The floor declared in package.json `engines`, and current LTS.
+        node: ["20", "22"]
+
+    steps:
+      - name: Check out the SDK
+        uses: actions/checkout@v4
+        with:
+          path: certcrypt-sdk-js
+
+      - name: Check out the conformance contract
+        uses: actions/checkout@v4
+        with:
+          repository: CERTCRYPT/certcrypt-conformance
+          path: certcrypt-conformance
+
+      - name: Check out the verifier toolkit
+        uses: actions/checkout@v4
+        with:
+          repository: CERTCRYPT/certcrypt-verifier-toolkit-js
+          path: certcrypt-verifier-toolkit-js
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: ${{ matrix.node }}
+          cache: npm
+          cache-dependency-path: certcrypt-sdk-js/package-lock.json
+
+      - name: Build the verifier toolkit
+        working-directory: certcrypt-verifier-toolkit-js
+        # The round-trip test imports the toolkit's BUILT output, so a checkout
+        # alone is not enough — an unbuilt sibling reads as a missing one.
+        run: |
+          npm ci
+          npm run build
+
+      - name: Install
+        working-directory: certcrypt-sdk-js
+        run: npm ci
+
+      - name: Typecheck
+        working-directory: certcrypt-sdk-js
+        run: npm run lint
+
+      - name: Build
+        working-directory: certcrypt-sdk-js
+        run: npm run build
+
+      - name: Tests — the contract is required, skips are failures
+        working-directory: certcrypt-sdk-js
+        run: npm test
+
+      - name: The published package carries no test material
+        working-directory: certcrypt-sdk-js
+        # `files` in package.json is what decides the tarball. A stray test or
+        # test-support module shipping to consumers is a packaging defect no test
+        # catches, because every test passes either way.
+        run: |
+          leaked=$(npm pack --dry-run --json \
+            | node -e 'const d=JSON.parse(require("fs").readFileSync(0,"utf8"))[0];
+                       console.log(d.files.map(f=>f.path)
+                         .filter(p=>/\.test\.|test-support/.test(p)).join("\n"))')
+          if [ -n "$leaked" ]; then
+            echo "::error::Test material would be published:"; echo "$leaked"; exit 1
+          fi

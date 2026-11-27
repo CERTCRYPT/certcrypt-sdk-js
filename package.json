@@ -1,0 +1,64 @@
+{
+  "name": "@certcrypt/sdk",
+  "version": "1.0.0",
+  "description": "Official issuer-side SDK for CERTCRYPT: certify material with a client-side composite post-quantum signature (ECDSA P-256 + ML-DSA-65), and produce the artifacts that let a third party independently evaluate the result offline under public rules, without either your systems or CERTCRYPT remaining online.",
+  "keywords": [
+    "auditability",
+    "certcrypt",
+    "composite-signature",
+    "digital-certification",
+    "fail-closed",
+    "fips-204",
+    "interoperability",
+    "issuer-side",
+    "jcs",
+    "ml-dsa",
+    "offline-verification",
+    "post-quantum",
+    "proof-of-independence",
+    "public-rules",
+    "rfc8785",
+    "sdk"
+  ],
+  "homepage": "https://certcrypt.com",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/CERTCRYPT/certcrypt-sdk-js.git"
+  },
+  "type": "module",
+  "main": "dist/src/index.js",
+  "types": "dist/src/index.d.ts",
+  "files": [
+    "dist/src",
+    "!dist/src/**/*.test.js",
+    "!dist/src/**/*.test.d.ts",
+    "!dist/src/**/*.test.js.map",
+    "!dist/src/test-support",
+    "LICENSE",
+    "README.md",
+    "SECURITY.md",
+    "CHANGELOG.md"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "prepublishOnly": "npm run build && npm test",
+    "test": "node --test \"dist/**/*.test.js\"",
+    "lint": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@noble/curves": "2.2.0",
+    "@noble/hashes": "2.2.0",
+    "@noble/post-quantum": "^0.6.0"
+  },
+  "devDependencies": {
+    "@types/node": "^25.6.0",
+    "typescript": "^5.4"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "license": "Apache-2.0",
+  "publishConfig": {
+    "access": "public"
+  }
+}

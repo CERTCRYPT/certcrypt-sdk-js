@@ -1,0 +1,301 @@
+{
+  "files": {
+    ".github/CODEOWNERS": {
+      "sha3_256": "7d0ada84d0092ba2067988989cfd6cc43f1ab127b08671553575cd43cd98fa18",
+      "certification": "2026-11-24T1814Z"
+    },
+    ".github/workflows/ci.yml": {
+      "sha3_256": "344c7e9c1e936dfe2669eb7f56e94718ad08fac792adb3a745899aa98912c255",
+      "certification": "2026-11-24T1814Z"
+    },
+    ".gitignore": {
+      "sha3_256": "ab0ec5d19c8d3ad591bc5f43f0c9188f2bbbd7bbb8647d0bcfe7e7ca44f791e1",
+      "certification": "2026-11-24T1814Z"
+    },
+    "AGENTS.md": {
+      "sha3_256": "e7d94673ba343816318a413d3ef299a665f55afd6e6863735da25dc9544cf993",
+      "certification": "2026-11-24T1814Z"
+    },
+    "CHANGELOG.md": {
+      "sha3_256": "3aecfb9dfe91d66b9c3527881aa84e6035d06b23678363ad864bb37dafcbeaff",
+      "certification": "2026-11-24T1814Z"
+    },
+    "LICENSE": {
+      "sha3_256": "781bb118a03ab698f629da9d9d2cb11112fbb43d8a0af960ad9c4942088ccdc7",
+      "certification": "2026-11-24T1814Z"
+    },
+    "README.md": {
+      "sha3_256": "728ce5779b852960cacceb364a8d16bd93749b131dc27dd7cbb4ff1b7f1536f8",
+      "certification": "2026-11-24T1814Z"
+    },
+    "SECURITY.md": {
+      "sha3_256": "d7fe701a9af0d55298d66f28cfc1efe08ca9a462549c013cc673cb3a67dfc320",
+      "certification": "2026-11-24T1814Z"
+    },
+    "package-lock.json": {
+      "sha3_256": "0437aeab9736e58f680b7f7401aa98d8c59aa7809c32a237a9088fef88d9fad0",
+      "certification": "2026-11-24T1814Z"
+    },
+    "package.json": {
+      "sha3_256": "11bec2417b51f8d1049b983171a7cabe2d880b2dc831e219b0bf5257e55bbb4d",
+      "certification": "2026-11-24T1814Z"
+    },
+    "src/artifacts/artifact-shape.conformance.test.ts": {
+      "sha3_256": "0ce8de781ff424d0eb642995a12550cf340755a3f6fa56556860f99616c0a009",
+      "certification": "2026-11-24T1814Z"
+    },
+    "src/artifacts/base-certificate.e2e.test.ts": {
+      "sha3_256": "691617cb46b11d1f38d7fb591fba1c6608560fc4e36df29cc29be2233f389b06",
+      "certification": "2026-11-24T1814Z"
+    },
+    "src/artifacts/base-certificate.test.ts": {
+      "sha3_256": "51489c1de08498eeb1601d610fdc8976bac616ed1944ab02de8a09dbf81db2bb",
+      "certification": "2026-11-24T1814Z"
+    },
+    "src/artifacts/base-certificate.ts": {
+      "sha3_256": "2450535176de6d44e640e9f2aef0fde58af7e13ec2ca5def1123a5d645d80ba0",
+      "certification": "2026-11-24T1814Z"
+    },
+    "src/artifacts/capacity-evidence.test.ts": {
+      "sha3_256": "5f0fb6d69ecf779ec921a51a7e15a75159068aa536dc86781282796b0ecd2bf9",
+      "certification": "2026-11-24T1814Z"
+    },
+    "src/artifacts/capacity-evidence.ts": {
+      "sha3_256": "624bfcce68fb04bb4916b1a64fda18ddb567660aa725b76f679e097060ed68b2",
+      "certification": "2026-11-24T1814Z"
+    },
+    "src/artifacts/commitment-inclusion.test.ts": {
+      "sha3_256": "2ba4ea3b12aff4e77e051c067832687f4b87960e4d767f3bf948b496b0f0fb56",
+      "certification": "2026-11-24T1814Z"
+    },
+    "src/artifacts/commitment-inclusion.ts": {
+      "sha3_256": "f47a98f3b228f83882aca9c01519293d502af43694ecb158a38d219271f43b08",
+      "certification": "2026-11-24T1814Z"
+    },
+    "src/artifacts/context-snapshot.e2e.test.ts": {
+      "sha3_256": "4d5bf3f487a1edd2de2856363daceb89a5ffcf77a839b6d7ed12a85d735c06d6",
+      "certification": "2026-11-24T1814Z"
+    },
+    "src/artifacts/context-snapshot.test.ts": {
+      "sha3_256": "7644c40472e6c4ba11292895579fb8b898cfe31e3c3d1d3e116fb4b5cfe70ecc",
+      "certification": "2026-11-24T1814Z"
+    },
+    "src/artifacts/holder-keyset.test.ts": {
+      "sha3_256": "6e598d3d47502b04690ab230e729e5e159b403175e20f32b49586c4a83dd4db2",
+      "certification": "2026-11-24T1814Z"
+    },
+    "src/artifacts/holder-keyset.ts": {
+      "sha3_256": "5b2d231bc49ea6df86ba8f3a7af6703157343de6f89e50b1f087af4b33dad3fe",
+      "certification": "2026-11-24T1814Z"
+    },
+    "src/artifacts/issuer-key-derivation.conformance.test.ts": {
+      "sha3_256": "ccf7960eca485644a203abcd397d6852668f07b3a48dbb8b1a112592ce189764",
+      "certification": "2026-11-24T1814Z"
+    },
+    "src/artifacts/original-material.conformance.test.ts": {
+      "sha3_256": "d949ac99b0fae6b9be6a932d8c520167073d1c4e03f37f5ea90e1443c3e2a03d",
+      "certification": "2026-11-24T1814Z"
+    },
+    "src/artifacts/rfc3339.ts": {
+      "sha3_256": "f95ecf47c08119fb3aee59d97307e906b125d27ad73b61706fcc5753e66cdd22",
+      "certification": "2026-11-24T1814Z"
+    },
+    "src/client.issuer-auth.test.ts": {
+      "sha3_256": "7f478a7367b2b908eb6138bdc318c0f6265c10195a6f6820dc4c3d92c410b295",
+      "certification": "2026-11-24T1814Z"
+    },
+    "src/client.retry.test.ts": {
+      "sha3_256": "b514f2a25d3798a50f493b4db8bcd13ab3223e96ad8c83f6301995a063ff5b3d",
+      "certification": "2026-11-24T1814Z"
+    },
+    "src/client.settlement-window.test.ts": {
+      "sha3_256": "d42f03190f09addf843686b996b093e91e388b1e4b784376f7829e706770e15b",
+      "certification": "2026-11-24T1814Z"
+    },
+    "src/client.test.ts": {
+      "sha3_256": "fd0f3891a4a6afed82b8e315009585c2a7ca2c6745c073a3b856655d9b482ab7",
+      "certification": "2026-11-24T1814Z"
+    },
+    "src/client.transport.test.ts": {
+      "sha3_256": "1a7ad69d75f98b33bb2871807ff26cebb0aa4a3c3c3e054239338269d4870c2a",
+      "certification": "2026-11-24T1814Z"
+    },
+    "src/client.ts": {
+      "sha3_256": "7f798155a6c21bb2e36502903c5d62d353d9eb91f1a66f8b9c6af953176d10fb",
+      "certification": "2026-11-24T1814Z"
+    },
+    "src/client.wait.test.ts": {
+      "sha3_256": "5f8d37bd333caeab75f353efbc7e2efa19dd477426a9cfd23d035c2f49e17ca0",
+      "certification": "2026-11-24T1814Z"
+    },
+    "src/conformance-coverage.test.ts": {
+      "sha3_256": "8d73ae3602f2454714532017e9075ff5e397591a243987f194bf3b6d3d8a6a36",
+      "certification": "2026-11-24T1814Z"
+    },
+    "src/crypto/ai-decision.test.ts": {
+      "sha3_256": "78edd4b08864bbac76c41e82fe6cc3ba22110ae9c8436e1e0b47a01677da343d",
+      "certification": "2026-11-24T1814Z"
+    },
+    "src/crypto/ai-decision.ts": {
+      "sha3_256": "fc7073c62d53d62d1ad5d43050b0d28f6504919c0825ffd2127fb4f05699ff67",
+      "certification": "2026-11-24T1814Z"
+    },
+    "src/crypto/canonical-subject.test.ts": {
+      "sha3_256": "78a9b7524d31734d416253400707cad0b3a32a3d3e1cd8c98cdf81e063dbf3da",
+      "certification": "2026-11-24T1814Z"
+    },
+    "src/crypto/canonical-subject.ts": {
+      "sha3_256": "5758f8e64f06d5b678a547859c4c7e48e911ab6688a2004416bed5f2a653e33d",
+      "certification": "2026-11-24T1814Z"
+    },
+    "src/crypto/collection-merkle.test.ts": {
+      "sha3_256": "65aaa95bcdd18e9a066cf81b342f9de32c280d30f7c700b6a69612e26f278a74",
+      "certification": "2026-11-24T1814Z"
+    },
+    "src/crypto/collection-merkle.ts": {
+      "sha3_256": "7556547d823219730dd300a557095a28d9e6f78ae2af54cf5d694b6d92d69b40",
+      "certification": "2026-11-24T1814Z"
+    },
+    "src/crypto/composite.conformance.test.ts": {
+      "sha3_256": "a9d8f9041d1cfbad3b6287d42f6e7cb18cefa82f06476a93677398b269627476",
+      "certification": "2026-11-24T1814Z"
+    },
+    "src/crypto/composite.test.ts": {
+      "sha3_256": "c95a3ed4307506228d1735f3b91beea2a05f87001225ff6cc85bda20b9f8f03e",
+      "certification": "2026-11-24T1814Z"
+    },
+    "src/crypto/composite.ts": {
+      "sha3_256": "fb51dc5b9127350e5c5235907754fdf51efefcad0f9c5900925c736cc47b420c",
+      "certification": "2026-11-24T1814Z"
+    },
+    "src/crypto/context-snapshot.conformance.test.ts": {
+      "sha3_256": "6860011507236ea9d95156b343a5e154ecee85e1710a224323cf3ffd472edf5a",
+      "certification": "2026-11-24T1814Z"
+    },
+    "src/crypto/digest.ts": {
+      "sha3_256": "6fb01fd70c1c03670bed7c6980650a6600b565faff73df9e40da5d106f5a116d",
+      "certification": "2026-11-24T1814Z"
+    },
+    "src/crypto/ecdsa-p256-deterministic.conformance.test.ts": {
+      "sha3_256": "d50fb81fdd898e12795a07b2829cb4bb4d24c57249aad0c65909aa9c515704f9",
+      "certification": "2026-11-24T1814Z"
+    },
+    "src/crypto/ecdsa-p256.test.ts": {
+      "sha3_256": "5fb5ecc6dbd1e63094a85b79d6ecd7eb6b66570ade380e1fbbd83ba85084021a",
+      "certification": "2026-11-24T1814Z"
+    },
+    "src/crypto/ecdsa-p256.ts": {
+      "sha3_256": "5d70e7e9333dc113bc54abe1e939112da7c51cdf25d94c652031556a77887137",
+      "certification": "2026-11-24T1814Z"
+    },
+    "src/crypto/jcs.ts": {
+      "sha3_256": "76e69c456c25652968d322108bc5a546922f97f35c3730a25533be2c7aaa7b06",
+      "certification": "2026-11-24T1814Z"
+    },
+    "src/crypto/key-derivation.conformance.test.ts": {
+      "sha3_256": "c97da71eb9e77ed3156d0e009b0fff48e22022fc1a84532260155a63d9209996",
+      "certification": "2026-11-24T1814Z"
+    },
+    "src/crypto/merkle.ts": {
+      "sha3_256": "611eb20427224bb39ff462f56356284e455fb2ca6eeedbc174a6b8104168151e",
+      "certification": "2026-11-24T1814Z"
+    },
+    "src/crypto/ml-dsa.ts": {
+      "sha3_256": "e9dcc49c512369e2d30488a5b93fd48932884a4bf13f1af92248bdf0d4d12b00",
+      "certification": "2026-11-24T1814Z"
+    },
+    "src/crypto/pseudonym.test.ts": {
+      "sha3_256": "295b71ac93a878eadf227a95c957dbcf263b8ef515e0b8cb761a858b9731234a",
+      "certification": "2026-11-24T1814Z"
+    },
+    "src/crypto/pseudonym.ts": {
+      "sha3_256": "68a81f66206cc5deec2dcb4aab7d5d870aefb91c146c1ccc1e396f1a6711600f",
+      "certification": "2026-11-24T1814Z"
+    },
+    "src/crypto/strict-json.conformance.test.ts": {
+      "sha3_256": "3330611e7cce785150cf76c396d965c96ad957764cc992ef3e86f4dde764f25f",
+      "certification": "2026-11-24T1814Z"
+    },
+    "src/crypto/strict-json.ts": {
+      "sha3_256": "9a8036612ff6428fcb105fccb3e500b856a61457148eed5c523a552bfa24cc1b",
+      "certification": "2026-11-24T1814Z"
+    },
+    "src/crypto/subject-json-preconditions.test.ts": {
+      "sha3_256": "772d9869ee899307558e11ef4ae5882e201617224d54c46acbb55e4ec48a6911",
+      "certification": "2026-11-24T1814Z"
+    },
+    "src/crypto/subject-json-preconditions.ts": {
+      "sha3_256": "8512cad0e89e4f885fe4a450c7fae9d839e1485e4c6eea75875409fc6425f737",
+      "certification": "2026-11-24T1814Z"
+    },
+    "src/index.ts": {
+      "sha3_256": "c016127c585155018bdb0b9ab813832267d62919c018bf951f807ea9ccd4f092",
+      "certification": "2026-11-24T1814Z"
+    },
+    "src/issuer.activation.test.ts": {
+      "sha3_256": "b56863c5666422221054b736c5f39b68785dede72ab28413dff6d68c0ff72b6c",
+      "certification": "2026-11-24T1814Z"
+    },
+    "src/issuer.config.test.ts": {
+      "sha3_256": "a21c806d258eac12eeb99dc4f6d1f89016cfda617ec16c283871f6bda286730d",
+      "certification": "2026-11-24T1814Z"
+    },
+    "src/issuer.guards.test.ts": {
+      "sha3_256": "ad97a004c5a5fd95eff387f0264cf0edb29652758655430dc54a904efaaa5161",
+      "certification": "2026-11-24T1814Z"
+    },
+    "src/issuer.prepare.test.ts": {
+      "sha3_256": "af70b08e02eba4c60234747a29e784d9d3a8ea5bc751a6e8a870cfd0adf34211",
+      "certification": "2026-11-24T1814Z"
+    },
+    "src/issuer.recovery.test.ts": {
+      "sha3_256": "4eebe5eecb2bb913e701eb19876b103a7e26eff61e94e4de063d7b7efb4b2c66",
+      "certification": "2026-11-24T1814Z"
+    },
+    "src/issuer.resolution.test.ts": {
+      "sha3_256": "2832c8e3ae48bd56aabfaafaf4cd211cbd8b96b17d813bc674204619ec8c63fc",
+      "certification": "2026-11-24T1814Z"
+    },
+    "src/issuer.test.ts": {
+      "sha3_256": "dd1ab4fbc76fb070a7be4ab18131ac4b2df3f1c1f0c18ea366041f3b62692690",
+      "certification": "2026-11-24T1814Z"
+    },
+    "src/issuer.ts": {
+      "sha3_256": "fe1e353cd0b441a6c186c14e8fe75f1c9cb000ca0fe47f95dd5e27f069f860f5",
+      "certification": "2026-11-24T1814Z"
+    },
+    "src/public-surface.test.ts": {
+      "sha3_256": "06893b91452952f6986bf2f948d7cabaceb9c00348a296258da6a8d53c780b83",
+      "certification": "2026-11-24T1814Z"
+    },
+    "src/retry.test.ts": {
+      "sha3_256": "43a6ff431416ac1e23473846dcb9246b4d4be7b91ba9852f895ef9d12ac15671",
+      "certification": "2026-11-24T1814Z"
+    },
+    "src/retry.ts": {
+      "sha3_256": "4cc934fd3c06de9588cbec404c6e87c2833fbffbac86119a29c9f266a0efe95c",
+      "certification": "2026-11-24T1814Z"
+    },
+    "src/test-support/siblings.ts": {
+      "sha3_256": "dcf701fb4b7ba02bf12d5dec0c82648d7467ccf0f970d3b7eb16fe5d3329da0c",
+      "certification": "2026-11-24T1814Z"
+    },
+    "src/types.ts": {
+      "sha3_256": "0db21b33736d84944b36f9ceedaa2476bdf9aa0857b83c9f89a5b8cf51e984da",
+      "certification": "2026-11-24T1814Z"
+    },
+    "tsconfig.json": {
+      "sha3_256": "21df143d72e2a9492f58533bb3fe3f129e33610c7f85fa14af20b2f70f9ce6b6",
+      "certification": "2026-11-24T1814Z"
+    }
+  },
+  "certifications": [
+    {
+      "id": "2026-11-24T1814Z",
+      "files": 72,
+      "subtree_root": "69964afb7c6f1a1adbb160615cbe55cffc5f1d2d4fbc52f4ddd6ef83c2206b7c"
+    }
+  ],
+  "repository": "certcrypt-sdk-js",
+  "leaf_profile": "subject.binary/1"
+}

@@ -17,8 +17,8 @@
       "certification": "2026-11-24T1814Z"
     },
     "CHANGELOG.md": {
-      "sha3_256": "a492e914eec18539515782b76b97f557f6c25bee79ee2965e054afbd84b9d350",
-      "certification": "2026-11-27T0057Z"
+      "sha3_256": "a0d707d6591e216dbd2cadab00951bece6c22a68e3ebcb6cdf8c0a921b12908e",
+      "certification": "2026-11-27T0216Z"
     },
     "LICENSE": {
       "sha3_256": "781bb118a03ab698f629da9d9d2cb11112fbb43d8a0af960ad9c4942088ccdc7",
@@ -33,12 +33,12 @@
       "certification": "2026-11-24T1814Z"
     },
     "package-lock.json": {
-      "sha3_256": "8e72befbfe132db25f03b590e6c18f84da5304bfcac67b7ce4750fd161d8faa3",
-      "certification": "2026-11-27T0057Z"
+      "sha3_256": "954225954c7fcc68b78cc0e6d4be9d37873b1ff0dfb35b419b4841c4f27700d1",
+      "certification": "2026-11-27T0216Z"
     },
     "package.json": {
-      "sha3_256": "637d3fc10368775b9bf8ceb67707b4e34ceb381d4418744d3433b0b85f98e596",
-      "certification": "2026-11-27T0057Z"
+      "sha3_256": "f322379b9117de82be6fabba3c26c1b8fdb442ce6ce5e1c34e80681dbb54cbd2",
+      "certification": "2026-11-27T0216Z"
     },
     "scripts/run-tests.mjs": {
       "sha3_256": "6dd36c943efcd38b1318216c8a2be0e1ee3894b8295951e37fc5a6db38d20f66",
@@ -303,6 +303,11 @@
       "id": "2026-11-27T0057Z",
       "files": 4,
       "subtree_root": "4cd0f4ee913c910a797015a98a4dbf0c4eec738393142cba4678f30b70002ffd"
+    },
+    {
+      "id": "2026-11-27T0216Z",
+      "files": 3,
+      "subtree_root": "971cecde69bb4aa04459fc964db73a65b406a9aba3ccbaba6242f21b420a2217"
     }
   ],
   "repository": "certcrypt-sdk-js",
